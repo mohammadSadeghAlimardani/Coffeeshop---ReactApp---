@@ -1,0 +1,43 @@
+.contact {
+    text-align: center;
+    background: linear-gradient(
+            rgba(175, 141, 114, 0.8),
+            rgba(175, 141, 114, 0.8)
+        ),
+        url("../../images/contact.jpg") 0 50% / cover;
+}
+.contact section.section-center {
+    padding: 4rem 0;
+}
+.contact h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.contact p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.contact form {
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 640px) {
+    .contact form {
+        width: 92.5%;
+    }
+}
+.contact form input {
+    padding-left: 1rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.contact form input:focus {
+    outline: none;
+}

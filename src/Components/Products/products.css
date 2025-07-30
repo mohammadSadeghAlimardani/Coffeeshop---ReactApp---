@@ -1,0 +1,22 @@
+.products {
+    background-color: #e3dac9;
+}
+.products section.section-center {
+    padding: 4rem 0;
+}
+.products .filter-btns {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.products .total-price {
+    margin-top: 2rem;
+    background-color: #b89474;
+    padding: 1.5rem;
+}
+.products .total-price h3 {
+    text-transform: capitalize;
+}

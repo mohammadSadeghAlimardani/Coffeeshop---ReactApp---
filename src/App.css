@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Avenir-Regular";
+    src: url("./fonts/Avenir-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Avenir-Light";
+    src: url("./fonts/Avenir-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("./fonts/Avenir-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url("./fonts/WorkSans-Medium.ttf") format("truetype");
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    font-family: "WorkSans-Medium";
+}
+
+#products,
+#reviews,
+#questions,
+#reserve,
+#contact {
+    scroll-margin-top: 4rem;
+}
+
+button {
+    font-family: "WorkSans-Medium";
+}
+input {
+    font-family: "WorkSans-Medium";
+}
+input::placeholder {
+    font-family: "WorkSans-Medium";
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.btn.btn-black-brown {
+    background-color: #281913;
+    border: 1px solid #b89474;
+    color: #b89474;
+}
+
+.btn.btn-inline-brown {
+    background-color: #b89474;
+    border: 1px solid #b89474;
+    color: black;
+}
+.btn.btn-inline-brown:hover {
+    background-color: transparent;
+    color: #b89474;
+}
+
+.btn.btn-outline-brown {
+    background-color: transparent;
+    border: 1px solid #b89474;
+    color: #b89474;
+}
+.btn.btn-outline-brown:hover {
+    background-color: #b89474;
+    color: black;
+}

@@ -1,0 +1,12 @@
+.footer {
+    background-color: #4f3f32;
+}
+.footer section.section-center {
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer p {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}

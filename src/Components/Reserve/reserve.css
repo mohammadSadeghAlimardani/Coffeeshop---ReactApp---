@@ -1,0 +1,45 @@
+.reserve {
+    padding: 4rem 0;
+    background: linear-gradient(rgba(67, 42, 30, 0.6), rgba(67, 42, 30, 0.6)),
+        url("../../images/reserve.jpg") 0 50% / cover;
+}
+.reserve article {
+    padding: 4rem 2rem;
+    background-color: #432a1e;
+    color: white;
+    text-align: center;
+}
+.reserve article h2 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.reserve article h3 {
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+.reserve article p {
+    font-size: 0.83rem;
+    margin: 2rem 0;
+}
+.reserve article ul {
+    margin-bottom: 2rem;
+}
+.reserve article ul li {
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    margin: 0.5rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .reserve article ul li {
+        grid-template-columns: 1fr 1fr;
+    }
+    .reserve article ul li h6 {
+        display: none;
+    }
+}
+.reserve .btn {
+    justify-self: center;
+}
