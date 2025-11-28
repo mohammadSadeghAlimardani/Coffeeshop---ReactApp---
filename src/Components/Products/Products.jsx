@@ -3,7 +3,7 @@ import "./products.css";
 import SingleProduct from "./SingleProduct";
 import FilterBtn from "./FilterBtn";
 
-const url = "https://api.jsonbin.io/v3/b/6887c3d17b4b8670d8a8c7f4";
+const url = "https://api.npoint.io/e0102edc73a1e6726966";
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -21,7 +21,6 @@ const Products = () => {
         try {
             let response = await fetch(url);
             let data = await response.json();
-            data = data.record;
             setBtns([
                 "all",
                 ...new Set(data.map((singleProduct) => singleProduct.category)),
@@ -44,7 +43,6 @@ const Products = () => {
             try {
                 let response = await fetch(url);
                 let data = await response.json();
-                data = data.record;
                 if (textBtn === "all") {
                     setProducts(data);
                 } else {
