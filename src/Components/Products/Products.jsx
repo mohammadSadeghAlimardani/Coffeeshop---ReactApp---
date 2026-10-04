@@ -3,7 +3,7 @@ import "./products.css";
 import SingleProduct from "./SingleProduct";
 import FilterBtn from "./FilterBtn";
 
-const url = "https://api.npoint.io/e0102edc73a1e6726966";
+const url = "https://api.npoint.io/10f4b3c75f7c0277e35f";
 
 const Products = () => {
     const [products, setProducts] = useState([]);
